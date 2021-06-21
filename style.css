@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+
+
+
+a:link { color: #bebebf; text-decoration: none;}
+a:visited { color: #bebebf; text-decoration: none;}
+a:hover { color: white; text-decoration: none;}
+
+html {
+    scroll-behavior: smooth         /*부드럽게 이동*/
+}
+
+.body{
+    margin: 0;
+}
+
+.sideNav {
+    text-align: center;
+}
+
+#sideNav-div {
+    width: 18%;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    height: 100%;
+    background-color: rgb(172, 74, 42);
+    top: 0;
+    left: 0;
+    min-width: 100px;
+}
+
+#center {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 60%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+#snoopy {
+    width: 130px;
+    height: auto;
+    z-index: 1;
+}
+
+#sideNav-ul {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 90px;
+    font-size: 25px;
+}
+
+#sideNav-li{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#sideNav-li > li{
+    padding-bottom: 12px;
+}
+
+
+#about {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-top: 190px;
+    margin-right: 0;
+}
+
+#about-content > h1 {
+    margin-left: 22%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 6rem;
+    font-weight: 700;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+#about-content-information{
+    margin-left: 22%;
+    font-size: 25px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #4f5050;
+}
+
+#email{
+    text-decoration: underline;
+    color: rgb(172, 74, 42);
+}
+
+#email:hover {
+    color: rgb(122, 52, 28);
+}
+
+#about-content-short-introduce{
+    margin-left: 22%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-right: 70px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    color: #6c757d;
+}
+
+#about-content-span {
+    color: rgb(172, 74, 42);
+}
+
+#sns-icon {
+    display: flex;
+    margin-left: 22%;
+    margin-bottom: 290px;
+}
+
+#sns-icon > a > img {
+    width: 50px;
+    height: auto;
+    margin-right: 30px;
+}
+
+
+#experience{
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-top: 0;
+    padding-top: 50px;
+}
+
+#experience-content{
+    margin-left: 22%;
+}
+
+#experience-content > h2{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+#experience-content-div1 {
+    display: flex;
+    margin-top: 50px;
+}
+
+#experience-content-div1-left{
+    width: 70%;
+}
+
+#experience-content-div1-left > h3{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#experience-content-div1-1 {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 30px;
+    margin-top: 0;
+    color: #5c636a;
+}
+
+#experience-content-div1-left > p{
+    font-family: 'Mulish', sans-serif;
+    color: #6c757d;
+}
+
+#experience-content-div1-right{
+    width: 30%;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 100px;
+    font-family: 'Mulish', sans-serif;
+    color: rgb(172, 74, 42);
+}
+
+#experience-content-div2 {
+    margin-top: 100px;
+    display: flex;
+}
+
+#experience-content-div2-left{
+    width: 70%;
+}
+
+#experience-content-div2-left > h3{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#experience-content-div2-1 {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 30px;
+    margin-top: 0;
+    color: #5c636a;
+}
+
+#experience-content-div2-left > p{
+    font-family: 'Mulish', sans-serif;
+    color: #6c757d;
+}
+
+#experience-content-div2-right{
+    width: 30%;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 100px;
+    font-family: 'Mulish', sans-serif;
+    color: rgb(172, 74, 42);
+}
+
+#experience-content-div3 {
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 200px;
+}
+
+#experience-content-div3-left > h3{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#experience-content-div3-left{
+    width: 70%;
+}
+
+#experience-content-div3-1 {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 30px;
+    margin-top: 0;
+    color: #5c636a;
+}
+
+#experience-content-div3-left > p{
+    font-family: 'Mulish', sans-serif;
+    color: #6c757d;
+}
+
+#experience-content-div3-right{
+    width: 30%;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 100px;
+    font-family: 'Mulish', sans-serif;
+    color: rgb(172, 74, 42);
+}
+
+#education{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    padding-top: 150px;
+}
+
+#education-content{
+    margin-left: 22%;
+}
+
+#education-content > h2{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+#education-content-div1 {
+    display: flex;
+    margin-top: 100px;
+    margin-right: 0;
+    margin-bottom: 80px;
+}
+
+#education-content-div1-left > h3{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 600px;
+}
+
+#education-content-div1-1 {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 25px;
+    margin-top: 0;
+    color: #5c636a;
+}
+
+
+#education-content-div1-right{
+    width: 30%;
+    text-align: right;
+    margin-top: 20px;
+    font-family: 'Mulish', sans-serif;
+    color: rgb(172, 74, 42);
+}
+
+#education-content-div2 {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 280px;
+}
+
+#education-content-div2-left > h3{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 600px;
+}
+
+#education-content-div2-1 {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 25px;
+    margin-top: 0;
+    color: #5c636a;
+}
+
+
+#education-content-div2-right{
+    width: 30%;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 100px;
+    font-family: 'Mulish', sans-serif;
+    color: rgb(172, 74, 42);
+}
+
+#skills{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    padding-top: 280px;
+}
+
+#skills-content{
+    margin-left: 22%;
+}
+
+#skills-content > h2{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+#skills-content-div1 {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #5c636a;
+}
+
+#skills-content-div2 {
+    display: flex;
+    margin-top: 30px;
+    margin-right: 0;
+    margin-bottom: 380px;
+}
+
+#skills-content-div2 > img {
+    /*max-width:45px;*/
+    /*width:100%;*/
+    /*height:10%;*/
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+    filter: brightness(0%) opacity(60%);
+}
+
+
+#papers-and-certification{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    margin-top: 0;
+    padding-top: 260px;
+}
+
+#papers-and-certification-content{
+    margin-left: 20%;
+    margin-bottom: 370px;
+}
+
+#papers-and-certification-content > h2{
+    margin-left: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+#papers-and-certification-content-div1 {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 0;
+    margin-bottom: 0;
+    color: #5c636a;
+}
+
+#papers-and-certification-content-div1-ul{
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+}
+
+#papers-and-certification-content-div1-ul > li {
+    list-style-type: none;
+    vertical-align: middle;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+#more{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    padding-top: 200px;
+}
+
+#more-content{
+    margin-left: 22%;
+    margin-bottom: 330px;
+}
+
+#more-content > h2{
+    margin-bottom: 50px;
+    padding-bottom: 0;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+#more-content-div1{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 29px;
+    color: #5c636a;
+}
