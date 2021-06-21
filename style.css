@@ -445,6 +445,18 @@ html {
     padding-bottom: 10px;
 }
 
+#papers-link{
+    color: black;
+}
+
+#papers-link:hover {
+    color: #bebebf;
+}
+
+#papers-link-icon{
+    padding-top: 2px;
+}
+
 #more{
     align-items: center;
     width: 100%;
