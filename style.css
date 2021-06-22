@@ -296,6 +296,7 @@ html {
     margin-top: 100px;
     margin-right: 0;
     margin-bottom: 80px;
+    width: 100%;
 }
 
 #education-content-div1-left > h3{
@@ -482,4 +483,32 @@ html {
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 29px;
     color: #5c636a;
+}
+
+#more-content-div1-instruments{
+    display: flex;
+    vertical-align: middle;
+    text-align: center;
+    height: 46px;
+}
+
+#more-content-div1-instruments > span > img{
+    width: 30px;
+    height: 30px;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+#more-content-div1-traveled {
+    display: flex;
+    vertical-align: middle;
+    text-align: center;
+    height: 46px;
+}
+
+#more-content-div1-traveled > span > img{
+    width: 30px;
+    height: 30px;
+    padding-top: 8px;
+    padding-left: 8px;
 }
