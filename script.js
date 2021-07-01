@@ -1,3 +1,4 @@
+
 var lastId,
     topMenu = $("#sideNav-li"),
     topMenuHeight = topMenu.outerHeight() + 1,
