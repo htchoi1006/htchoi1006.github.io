@@ -305,7 +305,12 @@ html {
     width: 100%;
 }
 
+#education-content-div1-left{
+    width: 70%;
+}
+
 #education-content-div1-left > h3{
+    width: 100%;
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 40px;
     margin-bottom: 0;
@@ -325,6 +330,7 @@ html {
     width: 30%;
     text-align: right;
     margin-top: 20px;
+    margin-right: 100px;
     font-family: 'Mulish', sans-serif;
     color: rgb(172, 74, 42);
 }
@@ -336,7 +342,12 @@ html {
     margin-bottom: 280px;
 }
 
+#education-content-div2-left{
+    width: 70%;
+}
+
 #education-content-div2-left > h3{
+    width: 100%;
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 40px;
     margin-bottom: 0;
@@ -356,6 +367,7 @@ html {
     width: 30%;
     text-align: right;
     margin-top: 20px;
+    margin-right: 100px;
     font-family: 'Mulish', sans-serif;
     color: rgb(172, 74, 42);
 }
