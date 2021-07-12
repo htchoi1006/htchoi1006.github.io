@@ -43,7 +43,7 @@ html {
     padding: 0;
     margin: 0;
     width: 100%;
-    height: 60%;
+    height: 64%;
     overflow: auto;
     margin: auto;
     position: absolute;
@@ -373,6 +373,769 @@ html {
     color: rgb(172, 74, 42);
 }
 
+/*----------------------------------------------*/
+/*PROJECTS SECTION*/
+
+#projects {
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    padding-top: 40px;
+}
+
+
+#projects-content {
+    margin-left: 22%;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+
+#projects-content > h2{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+
+#projects-content-div1 {
+    display: flex;
+    margin-top: 100px;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #5c636a;
+}
+
+#projects-content-div1-left{
+    width: 70%;
+    display: flex;
+}
+
+#projects-content-div1-left > h3{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #3e444a;
+}
+
+#projects-content-div1-right{
+    width: 30%;
+}
+
+#projects-content-div1-right-date{
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 0;
+    font-family: 'Mulish', sans-serif;
+    margin-left: 15px;
+    padding-top: 26px;
+    font-size: 15px;
+    color: rgb(172, 74, 42);
+}
+
+
+#projects-content-div1-icon {
+    padding-top: 12px;
+    width: 30px;
+    height: auto;
+    color: #3e444a;
+}
+
+#projects-content-div1-icon:hover{
+    color: #bebebf;
+}
+
+#projects-content-div1-icon > span {
+    width: 30px;
+    height: auto;
+    font-size: 40px;
+}
+
+#projects-content-div1-folded{
+    display: none;
+    margin-top: 20px;
+}
+
+#projects-content-div1-about{
+    margin-top: 0;
+    color: #6c757d;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 17px;
+}
+
+#projects-content-div1-folded-div1{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 22px;
+    color: #5c636a;
+}
+
+#form-to-spreadsheet{
+    color: #6c757d;
+}
+
+#form-to-spreadsheet:hover{
+    color: #bebebf;
+}
+
+#projects-content-div1-folded-div2{
+    display: flex;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 22px;
+    color: #6c757d;
+    margin-top: 0px;
+}
+
+/*----------------------------------------------------*/
+#projects-content-div2 {
+    display: flex;
+    margin-top: 80px;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #5c636a;
+}
+
+#projects-content-div2-left{
+    width: 70%;
+    display: flex;
+}
+
+#projects-content-div2-left > h3{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #3e444a;
+}
+
+#projects-content-div2-right{
+    width: 30%;
+}
+
+#projects-content-div2-right-date{
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 0;
+    font-family: 'Mulish', sans-serif;
+    margin-left: 15px;
+    padding-top: 26px;
+    font-size: 15px;
+    color: rgb(172, 74, 42);
+}
+
+
+#projects-content-div2-icon {
+    padding-top: 12px;
+    width: 30px;
+    height: auto;
+    color: #5c636a;
+}
+
+#projects-content-div2-icon:hover{
+    color: #bebebf;
+}
+
+#projects-content-div2-icon > span {
+    width: 30px;
+    height: auto;
+    font-size: 40px;
+}
+
+#projects-content-div2-folded{
+    /*display: none;*/
+    margin-top: 20px;
+    height: 0px;
+}
+
+
+#projects-content-div2-about{
+    margin-top: 0;
+    color: #6c757d;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 17px;
+}
+
+#projects-content-div2-folded-div1{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 22px;
+    color: #5c636a;
+}
+
+#near-duplicate-github-link{
+    color: #6c757d;
+}
+
+#near-duplicate-github-link:hover{
+    color: #bebebf;
+}
+
+#projects-content-div2-folded-div2{
+    display: flex;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 22px;
+    color: #6c757d;
+    margin-top: 0px;
+}
+
+
+/*----------------------------------------------------*/
+#projects-content-div3 {
+    display: flex;
+    margin-top: 80px;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #5c636a;
+}
+
+#projects-content-div3-left{
+    width: 70%;
+    display: flex;
+}
+
+#projects-content-div3-left > h3{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #3e444a;
+}
+
+#projects-content-div3-right{
+    width: 30%;
+}
+
+#projects-content-div3-right-date{
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 0;
+    font-family: 'Mulish', sans-serif;
+    margin-left: 15px;
+    padding-top: 26px;
+    font-size: 15px;
+    color: rgb(172, 74, 42);
+}
+
+
+#projects-content-div3-icon {
+    padding-top: 12px;
+    width: 30px;
+    height: auto;
+    color: #5c636a;
+}
+
+#projects-content-div3-icon:hover{
+    color: #bebebf;
+}
+
+#projects-content-div3-icon > span {
+    width: 30px;
+    height: auto;
+    font-size: 40px;
+}
+
+#projects-content-div3-folded{
+    display: none;
+    margin-top: 20px;
+}
+
+#projects-content-div3-about{
+    margin-top: 0;
+    color: #6c757d;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 17px;
+}
+
+#projects-content-div3-folded-div1{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 22px;
+    color: #5c636a;
+}
+
+#aws-compute-optimizer{
+    color: #6c757d;
+}
+
+#aws-compute-optimizer:hover{
+    color: #bebebf;
+}
+
+#projects-content-div3-folded-div2{
+    display: flex;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 22px;
+    color: #6c757d;
+    margin-top: 0px;
+}
+
+/*----------------------------------------------------*/
+#projects-content-div4 {
+    display: flex;
+    margin-top: 80px;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #5c636a;
+}
+
+#projects-content-div4-left{
+    width: 70%;
+    display: flex;
+}
+
+#projects-content-div4-left > h3{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #3e444a;
+}
+
+#projects-content-div4-right{
+    width: 30%;
+}
+
+#projects-content-div4-right-date{
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 0;
+    font-family: 'Mulish', sans-serif;
+    margin-left: 15px;
+    padding-top: 26px;
+    font-size: 15px;
+    color: rgb(172, 74, 42);
+}
+
+
+#projects-content-div4-icon {
+    padding-top: 12px;
+    width: 30px;
+    height: auto;
+    color: #5c636a;
+}
+
+#projects-content-div4-icon:hover{
+    color: #bebebf;
+}
+
+#projects-content-div4-icon > span {
+    width: 30px;
+    height: auto;
+    font-size: 40px;
+}
+
+#projects-content-div4-folded{
+    display: none;
+    margin-top: 20px;
+}
+
+#projects-content-div4-about{
+    margin-top: 0;
+    color: #6c757d;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 17px;
+}
+
+#projects-content-div4-folded-div1{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 22px;
+    color: #5c636a;
+}
+
+#docker-project{
+    color: #6c757d;
+}
+
+#docker-project:hover{
+    color: #bebebf;
+}
+
+#projects-content-div4-folded-div2{
+    display: flex;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 22px;
+    color: #6c757d;
+    margin-top: 0px;
+}
+
+/*----------------------------------------------------*/
+#projects-content-div5 {
+    display: flex;
+    margin-top: 80px;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #5c636a;
+}
+
+#projects-content-div5-left{
+    width: 70%;
+    display: flex;
+}
+
+#projects-content-div5-left > h3{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #3e444a;
+}
+
+#projects-content-div5-right{
+    width: 30%;
+}
+
+#projects-content-div5-right-date{
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 0;
+    font-family: 'Mulish', sans-serif;
+    margin-left: 15px;
+    padding-top: 26px;
+    font-size: 15px;
+    color: rgb(172, 74, 42);
+}
+
+
+#projects-content-div5-icon {
+    padding-top: 12px;
+    width: 30px;
+    height: auto;
+    color: #5c636a;
+}
+
+#projects-content-div5-icon:hover{
+    color: #bebebf;
+}
+
+#projects-content-div5-icon > span {
+    width: 30px;
+    height: auto;
+    font-size: 40px;
+}
+
+#projects-content-div5-folded{
+    display: none;
+    margin-top: 20px;
+}
+
+#projects-content-div5-about{
+    margin-top: 0;
+    color: #6c757d;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 17px;
+}
+
+#projects-content-div5-folded-div1{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 22px;
+    color: #5c636a;
+}
+
+#data-crawling{
+    color: #6c757d;
+}
+
+#data-crawling:hover{
+    color: #bebebf;
+}
+
+#projects-content-div5-folded-div2{
+    display: flex;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 22px;
+    color: #6c757d;
+    margin-top: 0px;
+}
+
+/*----------------------------------------------------*/
+#projects-content-div6 {
+    display: flex;
+    margin-top: 80px;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #5c636a;
+}
+
+#projects-content-div6-left{
+    width: 70%;
+    display: flex;
+}
+
+#projects-content-div6-left > h3{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #3e444a;
+}
+
+#projects-content-div6-right{
+    width: 30%;
+}
+
+#projects-content-div6-right-date{
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 0;
+    font-family: 'Mulish', sans-serif;
+    margin-left: 15px;
+    padding-top: 26px;
+    font-size: 15px;
+    color: rgb(172, 74, 42);
+}
+
+
+#projects-content-div6-icon {
+    padding-top: 12px;
+    width: 30px;
+    height: auto;
+    color: #5c636a;
+}
+
+#projects-content-div6-icon:hover{
+    color: #bebebf;
+}
+
+#projects-content-div6-icon > span {
+    width: 30px;
+    height: auto;
+    font-size: 40px;
+}
+
+#projects-content-div6-folded{
+    display: none;
+    margin-top: 20px;
+}
+
+#projects-content-div6-about{
+    margin-top: 0;
+    color: #6c757d;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 17px;
+}
+
+#projects-content-div6-folded-div1{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 22px;
+    color: #5c636a;
+}
+
+#mobile-programming{
+    color: #6c757d;
+}
+
+#mobile-programming:hover{
+    color: #bebebf;
+}
+
+#projects-content-div6-folded-div2{
+    display: flex;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 22px;
+    color: #6c757d;
+    margin-top: 0px;
+}
+
+/*----------------------------------------------------*/
+#projects-content-div7 {
+    display: flex;
+    margin-top: 80px;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #5c636a;
+}
+
+#projects-content-div7-left{
+    width: 70%;
+    display: flex;
+}
+
+#projects-content-div7-left > h3{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #3e444a;
+}
+
+#projects-content-div7-right{
+    width: 30%;
+}
+
+#projects-content-div7-right-date{
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 0;
+    font-family: 'Mulish', sans-serif;
+    margin-left: 15px;
+    padding-top: 26px;
+    font-size: 15px;
+    color: rgb(172, 74, 42);
+}
+
+
+#projects-content-div7-icon {
+    padding-top: 12px;
+    width: 30px;
+    height: auto;
+    color: #5c636a;
+}
+
+#projects-content-div7-icon:hover{
+    color: #bebebf;
+}
+
+#projects-content-div7-icon > span {
+    width: 30px;
+    height: auto;
+    font-size: 40px;
+}
+
+#projects-content-div7-folded{
+    display: none;
+    margin-top: 20px;
+}
+
+#projects-content-div7-about{
+    margin-top: 0;
+    color: #6c757d;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 17px;
+}
+
+#projects-content-div7-folded-div1{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 22px;
+    color: #5c636a;
+}
+
+#chatterbot{
+    color: #6c757d;
+}
+
+#chatterbot:hover{
+    color: #bebebf;
+}
+
+#projects-content-div7-folded-div2{
+    display: flex;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 22px;
+    color: #6c757d;
+    margin-top: 0px;
+}
+
+/*----------------------------------------------------*/
+#projects-content-div8 {
+    display: flex;
+    margin-top: 80px;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #5c636a;
+}
+
+#projects-content-div8-left{
+    width: 70%;
+    display: flex;
+}
+
+#projects-content-div8-left > h3{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #3e444a;
+}
+
+#projects-content-div8-right{
+    width: 30%;
+}
+
+#projects-content-div8-right-date{
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 0;
+    font-family: 'Mulish', sans-serif;
+    margin-left: 15px;
+    padding-top: 26px;
+    font-size: 15px;
+    color: rgb(172, 74, 42);
+}
+
+
+#projects-content-div8-icon {
+    padding-top: 12px;
+    width: 30px;
+    height: auto;
+    color: #5c636a;
+}
+
+#projects-content-div8-icon:hover{
+    color: #bebebf;
+}
+
+#projects-content-div8-icon > span {
+    width: 30px;
+    height: auto;
+    font-size: 40px;
+}
+
+#projects-content-div8-folded{
+    display: none;
+    margin-top: 20px;
+}
+
+#projects-content-div8-about{
+    margin-top: 0;
+    color: #6c757d;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 17px;
+}
+
+#projects-content-div8-folded-div1{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 22px;
+    color: #5c636a;
+}
+
+#sensor-cloud{
+    color: #6c757d;
+}
+
+#sensor-cloud:hover{
+    color: #bebebf;
+}
+
+#projects-content-div8-folded-div2{
+    display: flex;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 22px;
+    color: #6c757d;
+    margin-top: 0px;
+}
+
+
+/*----------------------------------------------*/
+/*SKILLS SECTION*/
+
+
 #skills{
     align-items: center;
     width: 100%;
@@ -461,6 +1224,14 @@ html {
     padding-bottom: 10px;
 }
 
+#aws-certification-icon{
+    padding-top: 2px;
+    border: 0;
+    outline: 0;
+    background-color: white;
+    margin-left: 2px;
+}
+
 #papers-link{
     color: black;
 }
@@ -528,5 +1299,5 @@ html {
     padding-left: 8px;
 }
 
-
+/*-------------------------*/
 
